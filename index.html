@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TITRE</title>
+	<title>index</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>La Station Celeste</h1>
-	<img src="img/resto.jpg">
+	<a href="index.html"><img class="logo" src="img/logo.png"></a>
+	<br>
+	<img class="resto" src="img/resto.jpg">
 	<h2>Restaurant de La Station Celeste</h2>
 	<h3>Nouveauté à Lyon 8</h3>
 	<p>Renseignements & réservations au 04 72 56 56 02
 	Parking privé – Wifi gratuit.</p>
 	<p>Pour plus d'information sur nos contacts, cliquez ici :</p>
-	<button type="button">Nous contacter</button>
-	<h2>LA CARTE</h2>
-	<p>description carte</p>
-	<h3>Le Prologue</h3>
-	<ul>
-		<li>Salade d'oiseau - 41 €</li>
-		<li>Coeur d'artichaut en salade - 112 €</li>
-		<li>Le Feuilletés de la Mamie - 39 €</li>
-	</ul>
-	<img src="img/entree.jpg">
-
-	<h3>Les Plats</h3>
-	<ul>
-		<li>Poisson globe à l'arête d'or - 123 €</li>
-		<li>7 Cordons-bleus de Madeline - 67€</li>
-		<li>Bourguignon de Maddy Thorson - 97 €</li>
-		<li>La poutine de Noel Berry - 112 €</li>
-	</ul>
-	<img src="img/plat.jpg">
-	<h3>Les Fromages</h3>
-	<ul>
-		<li>Le plateau de fromage de Théo - 57 €</li>
-	</ul>
-	<img src="img/fromage.jpg">
-	<h3>Les Desserts</h3>
-	<ul>
-		<li>La tarte à la fraise - 49 €</li>
-		<li>Sorbet à la fraise - 45 €</li>
-	</ul>
-	<img src="img/dessert.jpg">
-	<h3>Le dessert du chef</h3>
-	<ul>
-		<li>La fraise dorée  - 900 €</li>
-	</ul>
+	<a class="contacter" href="contact.html">Nous contacter</a>
+	<div class="carte">
+		<h2>LA CARTE</h2>
+	<div>
+		<h3>Le Prologue</h3>
+		<ul class="menu">
+			<li>Salade d'oiseau - <a class="prix">41 €</a></li>
+			<li>Coeur d'artichaut en salade - <a class="prix">112 €</a></li>
+			<li>Le Feuilletés de la Mamie - <a class="prix">39 €</a></li>
+		</ul>
+		<img class="entree" src="img/entree.jpg">
+	</div>
+	<div>	
+		<h3>Les Plats</h3>
+		<ul>
+			<li>Poisson globe à l'arête d'or - <a class="prix">123 €</a></li>
+			<li>7 Cordons-bleus de Madeline -<a class="prix"> 67€</a></li>
+			<li>Bourguignon de Maddy Thorson - <a class="prix">97 €</a></li>
+			<li>La poutine de Noel Berry -<a class="prix"> 112 €</a></li>
+		</ul>
+		<img class="plat" src="img/plat.jpg">
+	</div>
+	<div>
+		<h3>Les Fromages</h3>
+		<ul>
+			<li>Le plateau de fromage de Théo - <a class="prix">57 €</a></li>
+		</ul>
+		<img class="fromage" src="img/fromage.jpg">
+	</div>
+	<div>
+		<h3>Les Desserts</h3>
+		<ul>
+			<li>La tarte à la fraise - <a class="prix">49 €</a></li>
+			<li>Sorbet à la fraise -<a class="prix"> 45 €</a></li>
+		</ul>
+		<img class="dessert" src="img/dessert.jpg">
+	</div>
+	<div>
+		<h3>Le dessert du chef</h3>
+		<ul>
+			<li><a class="doree">La fraise dorée  -</a> <a class="prix">900 €</a></li>
+		</ul>
+	</div>
+</div>
 	<h2>Réservation</h2>
 	<p>Notre restaurant vous accueille du mardi soir au samedi soir inclus, au déjeuner et au dîner.</p>
-	<ul>
+	<ul class="horaire">
 		<li>De 12 h 00 à 13 h 15 pour votre déjeuner</li>
 		<li>De 19 h 30 à 21 h 15 pour votre dîner</li>
 	</ul>
 	<p>Pour réserver une table, cliquez ici :</p>
-	<button type="button"><a href="reserver.html">Réserver</a></button>
+	<a class="reserver" href="reserver.html">Réserver</a>
 </body>
 </html>
 
