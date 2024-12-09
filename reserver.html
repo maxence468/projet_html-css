@@ -1,49 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<title>Réservation</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<a href="index.html"><img class="logo" src="img/logo.png"></a>
+	<a href="index.html"><img class="logo" src="img/logo.png" alt="image du logo"></a>
 	<h2>Réservation</h2>
-	<div>
-		<label for="nom">Nom</label>
-		<input id="nom"type="text" name="nom">
+	<div class="tout">
+		<form>
+		<div>
+			<label for="nom">Nom</label><br>
+			<input id="nom" type="text" name="nom">
+		</div>
+		<div>
+			<label for="prenom">Prénom</label><br>
+			<input id="prenom" type="text" name="prenom">
+		</div>
+		<div>
+			<label for="telephone">Numéro de téléphone</label><br>
+			<input id="telephone" type="tel" name="telephone" placeholder="00 00 00 00 00">
+		</div>
+		<div>
+			<label for="date">Date de la réservation</label><br>
+			<input id="date" type="date" name="date">
+		</div>
+		<div>
+			<label for="heure">Heure d'arrivée</label><br>
+			<input id="heure" type="time" name="heure" min="12:00" max="13:15">
+		</div>
+		<div class="interieur">
+			<label for="interieur">Intérieur</label>
+			<input id="interieur" type="radio" name="endroit">
+		</div>
+		<div>
+			<label for="exterieur">Extérieur</label>
+			<input id="exterieur" type="radio" name="endroit">
+		</div>
+		<div>
+			<label for="personnes">Nombre de personnes</label><br>
+			<input id="personnes" type="number" name="personnes" min="0">
+		</div>
+		<div>
+			<label for="note">Note Complémentaires</label><br>
+			<textarea id="note" name="note"></textarea>
+		</div>
+			<input id="envoyer" type="submit" value="Envoyer" name="envoyer"> 
+		</form>
 	</div>
 	<div>
-		<label for="prenom">Prénom</label>
-		<input id="prenom"type="text" name="prenom">
+		<p>Ou si vous voulez nous contacter</p>
+		<p>Cliquez <a href="contact.html">ici</a></p>
 	</div>
-	<div>
-		<label for="telephone">Numéro de téléphone</label>
-		<input id="telephone" type="tel" name="telephone" placeholder="00 00 00 00 00">
-	</div>
-	<div>
-		<label for="date">Date de la réservation</label>
-		<input id="date" type="date" name="date" min="today()">
-	</div>
-	<div>
-		<label for="heure">Heure d'arrivée</label>
-		<input id="heure" type="time" name="heure" min="12:00" max="13:15">
-	</div>
-	<div>
-		<label for="interieur">Intérieur</label>
-		<input id="interieur" type="radio" name="endroit">
-	</div>
-	<div>
-		<label for="exterieur">Extérieur</label>
-		<input id="exterieur" type="radio" name="endroit">
-	</div>
-	<div>
-		<label for="personnes">Nombre de personnes</label>
-		<input id="personnes" type="number" name="personnes" min="0">
-	</div>
-	<div>
-		<label for="note">Note Complémentaires</label>
-		<input id="note"type="text" name="note">
-	</div>
-
 </body>
 </html>
 

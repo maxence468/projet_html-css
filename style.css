@@ -98,8 +98,8 @@ ul{
 
 .carte{
 	border: 10px ridge black;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 5%;
 	background: linear-gradient(darkslateblue,midnightblue);
 	background-image: url("img/fondcarte.jpg");
@@ -108,11 +108,58 @@ ul{
 
 div{
 	height: auto;
-	border: 5px solid black;
+	padding-bottom: 20px;
+	padding-left: 100px;
 }
 
-table, td{
-	
+table{
+	border: 4px solid skyblue;
 	color: white;
 	text-align: center;
+	border-radius: 100px;
+	padding: 5%;
+	text-shadow: 1px 1px blue;
+	margin: auto;
+}
+
+.image{
+	background-color: black;
+	border-radius: 100px;
+	height: 25%;
+	width: 25%;
+}
+
+td{
+	font-size: 125%;
+}
+
+label{
+	color:white;
+	text-shadow: 1px 1px blue;
+	font-size: 200%;
+	text-align: right;
+}
+
+textaera{
+	width: 100%;
+    height: 100px;
+    resize: both; 
+    overflow: auto; 
+}
+.interieur{
+	padding-bottom: 0px;
+}
+
+.tout{
+	background-color: MidnightBlue;
+	width: 30%;
+	padding-top: 2%;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin-left: 30%;
+}
+
+#envoyer{
+	position: relative;
+	left: 70%;
 }
